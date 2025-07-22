@@ -20,8 +20,8 @@ Jinja2==2.11.3 ; python_version < '3.12' # min version = 2.10.1 (Focal - with se
 Jinja2==3.1.2 ; python_version >= '3.12'  # (Noble) compatibility with markupsafe
 libsass==0.18.0 ; python_version < '3.12'
 libsass==0.22.0 ; python_version >= '3.12'  # (Noble) Mostly to have a wheel package
-lxml==4.6.5; python_version < '3.12' # min version = 4.5.0 (Focal - with security backports)
-lxml==5.2.1; python_version >= '3.12' # (Noble - removed html clean)
+lxml==4.8.0; python_version < '3.12' # min version = 4.5.0 (Focal - with security backports)
+lxml==4.9.2; python_version >= '3.12' # (Noble - removed html clean)
 lxml-html-clean; python_version >= '3.12' # (Noble - removed from lxml, unpinned for futur security patches)
 MarkupSafe==1.1.0 ; python_version < '3.12'
 MarkupSafe==2.1.5 ; python_version >= '3.12'  # (Noble) Mostly to have a wheel package
